@@ -32,45 +32,25 @@ const USER_CONFIG = {
           type: '*生日', name: '吊毛', year: '2002', date: '06-06',
         },
       ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-      ],
     },
     {
-      name: '老婆2',
+      name: '珊珊',
       id: 'ogIUX6KYkItKQt5MhRpAv9AFxc5w',
       useTemplateId: 'n6J1lMNqtDYFQ4tOnqis5DXWpIlvtxHxYAIydfkl99M',
       province: '陕西省',
       city: '西安市',
       horoscopeDate: '12-11',
-      horoscopeDateType: '今日3',
+      horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
       festivals: [
         {
           type: '*生日', name: '珊珊', year: '2002', date: '11-18',
         },
       ],
-      customizedDateList: [],
       courseSchedule: null
   ],
 
 
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
-
-  CALLBACK_USERS: [
-    {
-      name: '自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
-    }
-  ],
-
-}
-
+  
 module.exports = USER_CONFIG
 
