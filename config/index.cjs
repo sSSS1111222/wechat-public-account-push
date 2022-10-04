@@ -37,15 +37,15 @@ const USER_CONFIG = {
       name: '珊珊',
       id: 'ogIUX6KYkItKQt5MhRpAv9AFxc5w',
       useTemplateId: 'fD5ZOUfHpFwLWqXDhItegi_yIjSTpXbcv5Y1C9FgRZ4',
-      province: '散散心',
-      city: '胡歌',
+      province: '陕西省',
+      city: '西安市',
       horoscopeDate: '12-11',
       horoscopeDateType: '本月',
       openUrl: 'https://wangxinleo.cn',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2002', date: '06-06',
+          type: '*生日', name: '宝贝', year: '2002', date: '11-18',
         },
       ],
       customizedDateList: [],
