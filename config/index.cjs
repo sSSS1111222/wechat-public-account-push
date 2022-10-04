@@ -69,8 +69,15 @@ const USER_CONFIG = {
       customizedDateList: [],
       courseSchedule: null
     },
-  ]
+  ],
   
+/**
+   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
+   */
+
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: 'e0yVpo8Cn4qmhDTmX_p2aXU8j5Cv5wTyrkDERzhC_ew',
+
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
@@ -81,8 +88,7 @@ const USER_CONFIG = {
     }
     // 你可以不断按格式往下增加
     // ...
-  ],
-  
+  ]
  }
 
 module.exports = USER_CONFIG
