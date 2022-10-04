@@ -53,7 +53,7 @@ const USER_CONFIG = {
       name: '丫丫',
       id: 'oVrTp6dA4Z9IkiLckyCPKN3FPY8M',
       useTemplateId: 'Aq-_e7BZY48qWry1lEODtCt1cPgtpuVOk2Gi_qamo9w',
-      province: '新疆维吾尔自治区',
+      province: '新疆',
       city: '乌鲁木齐市',
       horoscopeDate: '11-25',
       horoscopeDateType: '本月',
