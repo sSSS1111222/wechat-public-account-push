@@ -65,6 +65,22 @@ const USER_CONFIG = {
         },
       ],
     },
+     {
+      name: '大宝',
+      id: 'oVrTp6eGs0orhjWXsGWWz3ezdpY8',
+      useTemplateId: 'Aq-_e7BZY48qWry1lEODtCt1cPgtpuVOk2Gi_qamo9w',
+      province: '新疆',
+      city: '乌鲁木齐市',
+      horoscopeDate: '11-01',
+      horoscopeDateType: '本月',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '大宝', year: '2002', date: '10-08',
+        },
+      ],
+    },
   ]
   
 
