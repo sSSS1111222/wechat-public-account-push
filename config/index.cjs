@@ -71,6 +71,18 @@ const USER_CONFIG = {
     },
   ]
   
+  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
+  CALLBACK_USERS: [
+    {
+      // 一般都填自己
+      name: '自己',
+      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oVrTp6W5iXfvYbGCRDq-uEEH3zz0',
+    }
+    // 你可以不断按格式往下增加
+    // ...
+  ],
+  
  }
 
 module.exports = USER_CONFIG
