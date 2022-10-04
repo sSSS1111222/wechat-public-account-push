@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx54c03cc5d0baeac2',
+  APP_ID: 'wx5411346931aad8a2',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '0261b06cb394bfc1fdd309d989c08269',
+  APP_SECRET: '812f1194ef6bffd8ec3effcd7a78f32a',
 
   PROVINCE: '甘肃省',
   CITY: '张掖市',
@@ -21,15 +21,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '吊毛',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ogIUX6HcSm0EdDQOuLRmXp_hx9sg',
+      id: 'oVrTp6W5iXfvYbGCRDq-uEEH3zz0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'fD5ZOUfHpFwLWqXDhItegi_yIjSTpXbcv5Y1C9FgRZ4',
+      useTemplateId: 'S-HASa3I0iAD9w_p-TazyodOXtLof4uWqXZpWTD5ueY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2002', date: '06-06',
+          type: '*生日', name: '吊毛', year: '2002', date: '06-06',
         },
       ],
     },
