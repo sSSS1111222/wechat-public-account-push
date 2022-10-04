@@ -45,7 +45,25 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2002', date: '11-18',
+          type: '*生日', name: '珊珊', year: '2002', date: '11-18',
+        },
+      ],
+      customizedDateList: [],
+      courseSchedule: null
+    },
+    {
+      name: '丫丫',
+      id: 'oVrTp6dA4Z9IkiLckyCPKN3FPY8M',
+      useTemplateId: 'S-HASa3I0iAD9w_p-TazyodOXtLof4uWqXZpWTD5ueY',
+      province: '新疆维吾尔自治区',
+      city: '乌鲁木齐市',
+      horoscopeDate: '11-25',
+      horoscopeDateType: '本月',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '丫丫', year: '2002', date: '11-02',
         },
       ],
       customizedDateList: [],
