@@ -48,8 +48,6 @@ const USER_CONFIG = {
           type: '*生日', name: '珊珊', year: '2002', date: '11-18',
         },
       ],
-      customizedDateList: [],
-      courseSchedule: null
     },
     {
       name: '丫丫',
@@ -66,29 +64,10 @@ const USER_CONFIG = {
           type: '*生日', name: '丫丫', year: '2002', date: '11-02',
         },
       ],
-      customizedDateList: [],
-      courseSchedule: null
     },
-  ],
-  
-/**
-   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
-   */
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'e0yVpo8Cn4qmhDTmX_p2aXU8j5Cv5wTyrkDERzhC_ew',
-
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
-      // 一般都填自己
-      name: '自己',
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oVrTp6W5iXfvYbGCRDq-uEEH3zz0',
-    }
-    // 你可以不断按格式往下增加
-    // ...
   ]
+  
+
  }
 
 module.exports = USER_CONFIG
