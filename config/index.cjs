@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oVrTp6W5iXfvYbGCRDq-uEEH3zz0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'e0yVpo8Cn4qmhDTmX_p2aXU8j5Cv5wTyrkDERzhC_ew',
+      useTemplateId: 'Aq-_e7BZY48qWry1lEODtCt1cPgtpuVOk2Gi_qamo9w',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -35,8 +35,8 @@ const USER_CONFIG = {
     },
     {
       name: '珊珊',
-      id: 'ogIUX6KYkItKQt5MhRpAv9AFxc5w',
-      useTemplateId: 'e0yVpo8Cn4qmhDTmX_p2aXU8j5Cv5wTyrkDERzhC_ew',
+      id: 'oVrTp6UzwikFpwpgLzvKYoBfXzrw',
+      useTemplateId: 'Aq-_e7BZY48qWry1lEODtCt1cPgtpuVOk2Gi_qamo9w',
       province: '陕西省',
       city: '西安市',
       horoscopeDate: '12-11',
@@ -52,7 +52,7 @@ const USER_CONFIG = {
     {
       name: '丫丫',
       id: 'oVrTp6dA4Z9IkiLckyCPKN3FPY8M',
-      useTemplateId: 'e0yVpo8Cn4qmhDTmX_p2aXU8j5Cv5wTyrkDERzhC_ew',
+      useTemplateId: 'Aq-_e7BZY48qWry1lEODtCt1cPgtpuVOk2Gi_qamo9w',
       province: '新疆维吾尔自治区',
       city: '乌鲁木齐市',
       horoscopeDate: '11-25',
