@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2002', date: '06-06',
+          type: '*生日', name: '吊毛', year: '2002', date: '06-06',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -40,6 +40,22 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    {
+      name: '老婆2',
+      id: 'ogIUX6KYkItKQt5MhRpAv9AFxc5w',
+      useTemplateId: 'n6J1lMNqtDYFQ4tOnqis5DXWpIlvtxHxYAIydfkl99M',
+      province: '陕西省',
+      city: '西安市',
+      horoscopeDate: '12-11',
+      horoscopeDateType: '今日3',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        {
+          type: '*生日', name: '珊珊', year: '2002', date: '11-18',
+        },
+      ],
+      customizedDateList: [],
+      courseSchedule: null
   ],
 
 
