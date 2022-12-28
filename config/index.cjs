@@ -13,26 +13,11 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '85a35c630198c920c992966edea54f33',
 
+  PROVINCE: '甘肃省',
+  CITY: '白银市',
+
   USERS: [
     {
-      // 想要发送的人的名字
-      name: '1111',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oYBlV6DPQifoneILF4cFNgH0Kd8U',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'SipjcKGFfZBatZ_XZZAtNxmLs9pwT76j6UAQhGpCNio',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-22',
-      PROVINCE: '广东',
-      CITY: '惠州',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '1111', year: '1996', date: '09-09',
-        },
-      ],
-    },
-     {
       // 想要发送的人的名字
       name: '苗苗',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -41,8 +26,6 @@ const USER_CONFIG = {
       useTemplateId: 'SipjcKGFfZBatZ_XZZAtNxmLs9pwT76j6UAQhGpCNio',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-22',
-      PROVINCE: '甘肃省',
-      CITY: '白银',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -50,10 +33,26 @@ const USER_CONFIG = {
         },
       ],
     },
+    {
+      name: '珊珊',
+      id: 'oYBlV6DPQifoneILF4cFNgH0Kd8U',
+      useTemplateId: '	SipjcKGFfZBatZ_XZZAtNxmLs9pwT76j6UAQhGpCNio',
+      province: '陕西省',
+      city: '西安市',
+      horoscopeDate: '12-11',
+      horoscopeDateType: '本月',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '珊珊', year: '2002', date: '11-18',
+        },
+      ],
+    },
+    
   ]
+  
 
-
-}
+ }
 
 module.exports = USER_CONFIG
-
