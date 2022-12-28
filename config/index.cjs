@@ -20,7 +20,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oYBlV6DPQifoneILF4cFNgH0Kd8U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Fj5QH7OxABAUAeRHhVC1mDvafP-Ke7w99l5JcxDLFoM',
+      useTemplateId: 'JyI8GBwlOiS_ujR6PvFfbbgmTWulHMFw02cej5kuyMw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-22',
       PROVINCE: '广东',
@@ -38,7 +38,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oYBlV6PZjWXldRmY1PLEJb3pdOY8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Fj5QH7OxABAUAeRHhVC1mDvafP-Ke7w99l5JcxDLFoM',
+      useTemplateId: 'JyI8GBwlOiS_ujR6PvFfbbgmTWulHMFw02cej5kuyMw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-22',
       PROVINCE: '甘肃省',
