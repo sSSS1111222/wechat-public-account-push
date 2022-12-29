@@ -33,22 +33,6 @@ const USER_CONFIG = {
         },
       ],
     },
-    {
-      name: '珊珊',
-      id: 'oYBlV6DPQifoneILF4cFNgH0Kd8U',
-      useTemplateId: '	SipjcKGFfZBatZ_XZZAtNxmLs9pwT76j6UAQhGpCNio',
-      province: '陕西省',
-      city: '西安市',
-      horoscopeDate: '12-11',
-      horoscopeDateType: '本月',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '珊珊', year: '2002', date: '11-18',
-        },
-      ],
-    },
     
   ]
   
